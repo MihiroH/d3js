@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+</head>
+<body>
+  <div id="box">
+    <div class="graph">
+      <div class="pie_base"></div>
+      <div class="pie"></div>
+    </div>
+  </div>
+  <style>
+    .graph {
+      width: 160px;
+      height: 160px;
+      transform: rotateY(180deg);
+    }
+    .pie_base,
+    .pie {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+    }
+  </style>
+  <!-- <script src="https://d3js.org/d3.v5.min.js"></script> -->
+  <script src="http://d3js.org/d3.v3.min.js"></script>
+  <script src="./script.js"></script>
+</body>
+</html>
